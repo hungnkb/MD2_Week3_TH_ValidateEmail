@@ -1,4 +1,4 @@
-let reg = new RegExp('^[A-Za-z0-9_]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$')
+let reg = new RegExp('^[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$')
 
 let email = ['abc@gmail.com', '@abc@gmail.com', 'abc@gmail.', 'abc@.', 'asd@.gmail.com', '#abc@gmail.com', 'ab_c@gmail.com']
 
